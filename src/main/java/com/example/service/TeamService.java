@@ -1,9 +1,7 @@
 package com.example.service;
 
-import com.example.dto.TeamDto;
 import com.example.dto.TeamRequest;
 import com.example.dto.TeamResponse;
-import com.example.model.Member;
 import com.example.model.Team;
 import com.example.model.constant.TeamSearchType;
 import com.example.repository.TeamRepository;
@@ -16,7 +14,6 @@ import org.springframework.web.server.ResponseStatusException;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
-import java.util.List;
 
 @Service
 @AllArgsConstructor
